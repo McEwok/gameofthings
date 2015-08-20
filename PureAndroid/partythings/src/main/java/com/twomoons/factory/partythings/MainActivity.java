@@ -58,7 +58,21 @@ public class MainActivity extends ActionBarActivity implements IView, IMsgHandle
         setupResponseAdapter();
 
         setupPaneHooks();
+
+        //setupPickResponseAdapter();
     }
+
+    /*private void setupPickResponseAdapter() {
+        ItemSelectionAdapter adapter = new ItemSelectionAdapter(MainActivity.this, R.layout.item_selection_button_item);
+        SelectionItem i1 = new SelectionItem();
+        i1.set_label("My collection of freeze dried apple seeds that look like celebrities");
+        SelectionItem i2 = new SelectionItem();
+        i2.set_label("farts");
+        adapter.add(i1);
+        adapter.add(i2);
+        ListView list = (ListView) findViewById(R.id.pickResponseList);
+        list.setAdapter(adapter);
+    }*/
 
     public View getViewById(int id){return findViewById(id);}
 

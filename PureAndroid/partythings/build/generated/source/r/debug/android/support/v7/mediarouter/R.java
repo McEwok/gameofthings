@@ -474,7 +474,7 @@ public final class R {
 		public static final int mr_media_route_chooser_dialog = 0x7f04001e;
 		public static final int mr_media_route_controller_dialog = 0x7f04001f;
 		public static final int mr_media_route_list_item = 0x7f040020;
-		public static final int support_simple_spinner_dropdown_item = 0x7f040021;
+		public static final int support_simple_spinner_dropdown_item = 0x7f040022;
 	}
 	public static final class string {
 		public static final int abc_action_bar_home_description = 0x7f0e0000;

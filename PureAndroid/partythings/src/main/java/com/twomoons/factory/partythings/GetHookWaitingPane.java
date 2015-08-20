@@ -20,6 +20,11 @@ public class GetHookWaitingPane implements IMsgHandler {
         setupListener();
     }
 
+    private void closeWaiting(String message) {
+        hidePane();
+        hub.SendMessage(CommunicatorEvents.WaitingExit, message);
+    }
+
     private void setupListener() {
         hub.RegisterMsgr(this,CommunicatorEvents.WaitingEnter);
     }
@@ -36,6 +41,7 @@ public class GetHookWaitingPane implements IMsgHandler {
     public void HandleMessage(CommunicatorEvents eventType, String message) {
         if(eventType == CommunicatorEvents.WaitingEnter){
             showPane();
+            closeWaiting(message);
         }
     }
 }

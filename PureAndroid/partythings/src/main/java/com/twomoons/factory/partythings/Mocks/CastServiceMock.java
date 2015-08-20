@@ -17,7 +17,7 @@ import java.util.Random;
  * Created by Joshua on 6/7/2015.
  */
 public class CastServiceMock implements ICommunicator, IMsgHandler {
-
+    private int waitingLoop = 0;
     private IHub _messageHub;
 
     @Override
@@ -28,6 +28,7 @@ public class CastServiceMock implements ICommunicator, IMsgHandler {
 
     private void setupListeners() {
         ArrayList<CommunicatorEvents> events = new ArrayList<CommunicatorEvents>();
+        events.add(CommunicatorEvents.NotConnectedEnter);
         events.add(CommunicatorEvents.NotConnectedExit);
         events.add(CommunicatorEvents.EnterGameEnter);
         events.add(CommunicatorEvents.EnterGameExit);
@@ -35,6 +36,12 @@ public class CastServiceMock implements ICommunicator, IMsgHandler {
         events.add(CommunicatorEvents.EnterGameNameExit);
         events.add(CommunicatorEvents.PromptSelectionEnter);
         events.add(CommunicatorEvents.PromptSelectionExit);
+        events.add(CommunicatorEvents.WaitingEnter);
+        events.add(CommunicatorEvents.WaitingExit);
+        events.add(CommunicatorEvents.EnterResponseEnter);
+        events.add(CommunicatorEvents.EnterResponseExit);
+        events.add(CommunicatorEvents.PickResponseEnter);
+        events.add(CommunicatorEvents.PickResponseExit);
         _messageHub.RegisterMsgr(this, events);
     }
     Random rdm = new Random();
@@ -45,11 +52,20 @@ public class CastServiceMock implements ICommunicator, IMsgHandler {
             _messageHub.SendMessage(CommunicatorEvents.EnterGameNameEnter, rdm.nextBoolean() ? "gameExists" : "");
         } else if(eventType == CommunicatorEvents.EnterGameNameExit) {
             System.out.println("Game/Player name entered: " + message);
-            _messageHub.SendMessage(CommunicatorEvents.PromptSelectionEnter, "A:::B");
-            //_messageHub.SendMessage(CommunicatorEvents.EnterGameEnter, "");
-        } else if(eventType ==CommunicatorEvents.PromptSelectionExit){
+            _messageHub.SendMessage(CommunicatorEvents.PromptSelectionEnter, "A:::B:::C");
+        } else if(eventType == CommunicatorEvents.PromptSelectionExit){
             System.out.println("PromptSelected: " + message);
-            _messageHub.SendMessage(CommunicatorEvents.WaitingEnter, "");
+            _messageHub.SendMessage(CommunicatorEvents.WaitingEnter, "EnterResponse");
+        } else if(eventType == CommunicatorEvents.WaitingExit) {
+            System.out.println("Waiting Exit");
+            if (message == "EnterResponse") {
+                _messageHub.SendMessage(CommunicatorEvents.EnterResponseEnter, "Donuts");
+            } else if (message == "PickResponse"){
+                _messageHub.SendMessage(CommunicatorEvents.PickResponseEnter, "A:::B:::C");
+            }
+        } else if(eventType == CommunicatorEvents.EnterResponseExit) {
+            System.out.println(message);
+            _messageHub.SendMessage(CommunicatorEvents.WaitingEnter,"PickResponse");
         }
         /*
             GOOGLE: String Parsing in JAVA (Split) "Response A ::::: Response B ::::: Response C"

@@ -1512,7 +1512,7 @@ containing a value of this type.
         public static final int action_mode_bar=0x7f0c0030;
         public static final int action_mode_bar_stub=0x7f0c002f;
         public static final int action_mode_close_button=0x7f0c0022;
-        public static final int action_settings=0x7f0c0092;
+        public static final int action_settings=0x7f0c0093;
         public static final int activity_chooser_view_content=0x7f0c0023;
         public static final int adjust_height=0x7f0c0016;
         public static final int adjust_width=0x7f0c0017;
@@ -1571,7 +1571,7 @@ containing a value of this type.
         public static final int media_route_control_frame=0x7f0c008e;
         public static final int media_route_disconnect_button=0x7f0c008f;
         public static final int media_route_list=0x7f0c008b;
-        public static final int media_route_menu_item=0x7f0c0091;
+        public static final int media_route_menu_item=0x7f0c0092;
         public static final int media_route_volume_layout=0x7f0c008c;
         public static final int media_route_volume_slider=0x7f0c008d;
         public static final int middle=0x7f0c0015;
@@ -1605,6 +1605,7 @@ containing a value of this type.
         public static final int removeView=0x7f0c0083;
         public static final int response_button=0x7f0c005a;
         public static final int resultsPane=0x7f0c0062;
+        public static final int rowTextView=0x7f0c0090;
         public static final int scoreIntroText=0x7f0c0069;
         public static final int search_badge=0x7f0c0037;
         public static final int search_bar=0x7f0c0036;
@@ -1629,7 +1630,7 @@ containing a value of this type.
         public static final int successText=0x7f0c0068;
         public static final int tabMode=0x7f0c000b;
         public static final int tabhost=0x7f0c0084;
-        public static final int text=0x7f0c0090;
+        public static final int text=0x7f0c0091;
         public static final int textContainer=0x7f0c007f;
         public static final int textView1=0x7f0c0075;
         public static final int textView2=0x7f0c0076;
@@ -1685,8 +1686,9 @@ containing a value of this type.
         public static final int mr_media_route_chooser_dialog=0x7f04001e;
         public static final int mr_media_route_controller_dialog=0x7f04001f;
         public static final int mr_media_route_list_item=0x7f040020;
-        public static final int support_simple_spinner_dropdown_item=0x7f040021;
-        public static final int tracks_row_layout=0x7f040022;
+        public static final int simplerow=0x7f040021;
+        public static final int support_simple_spinner_dropdown_item=0x7f040022;
+        public static final int tracks_row_layout=0x7f040023;
     }
     public static final class menu {
         public static final int cast_player_menu=0x7f100000;
