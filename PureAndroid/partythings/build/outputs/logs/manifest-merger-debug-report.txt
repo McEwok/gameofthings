@@ -16,14 +16,17 @@ ADDED from AndroidManifest.xml:2:1
 application
 ADDED from AndroidManifest.xml:5:5
 MERGED from PureAndroid:CastCompanionLibrary-android-master:unspecified:release:11:5
-MERGED from com.android.support:appcompat-v7:21.0.3:16:5
-MERGED from com.android.support:support-v4:21.0.3:16:5
-MERGED from com.android.support:mediarouter-v7:21.0.3:16:5
-MERGED from com.android.support:appcompat-v7:21.0.3:16:5
-MERGED from com.android.support:support-v4:21.0.3:16:5
-MERGED from com.google.android.gms:play-services-cast:6.5.87:19:5
-MERGED from com.google.android.gms:play-services-base:6.5.87:20:5
-MERGED from com.android.support:support-v4:21.0.3:16:5
+MERGED from com.android.support:appcompat-v7:22.2.0:22:5
+MERGED from com.android.support:support-v4:22.2.0:22:5
+MERGED from com.android.support:mediarouter-v7:22.2.0:22:5
+MERGED from com.android.support:appcompat-v7:22.2.0:22:5
+MERGED from com.android.support:support-v4:22.2.0:22:5
+MERGED from com.google.android.gms:play-services-cast:8.3.0:19:5
+MERGED from com.google.android.gms:play-services-basement:8.3.0:20:5
+MERGED from com.android.support:support-v4:22.2.0:22:5
+MERGED from com.android.support:mediarouter-v7:22.2.0:22:5
+MERGED from com.android.support:appcompat-v7:22.2.0:22:5
+MERGED from com.android.support:support-v4:22.2.0:22:5
 	android:label
 		ADDED from AndroidManifest.xml:8:9
 	android:allowBackup
@@ -50,7 +53,7 @@ ADDED from AndroidManifest.xml:16:17
 		ADDED from AndroidManifest.xml:16:27
 meta-data#com.google.android.gms.version
 ADDED from AndroidManifest.xml:19:9
-MERGED from com.google.android.gms:play-services-base:6.5.87:21:9
+MERGED from com.google.android.gms:play-services-basement:8.3.0:21:9
 	android:value
 		ADDED from AndroidManifest.xml:20:13
 	android:name
@@ -58,14 +61,18 @@ MERGED from com.google.android.gms:play-services-base:6.5.87:21:9
 uses-sdk
 INJECTED from AndroidManifest.xml:0:0 reason: use-sdk injection requested
 MERGED from PureAndroid:CastCompanionLibrary-android-master:unspecified:release:7:5
-MERGED from com.android.support:appcompat-v7:21.0.3:15:5
-MERGED from com.android.support:support-v4:21.0.3:15:5
-MERGED from com.android.support:mediarouter-v7:21.0.3:15:5
-MERGED from com.android.support:appcompat-v7:21.0.3:15:5
-MERGED from com.android.support:support-v4:21.0.3:15:5
-MERGED from com.google.android.gms:play-services-cast:6.5.87:18:5
-MERGED from com.google.android.gms:play-services-base:6.5.87:18:5
-MERGED from com.android.support:support-v4:21.0.3:15:5
+MERGED from com.android.support:appcompat-v7:22.2.0:20:5
+MERGED from com.android.support:support-v4:22.2.0:20:5
+MERGED from com.android.support:mediarouter-v7:22.2.0:20:5
+MERGED from com.android.support:appcompat-v7:22.2.0:20:5
+MERGED from com.android.support:support-v4:22.2.0:20:5
+MERGED from com.google.android.gms:play-services-cast:8.3.0:18:5
+MERGED from com.google.android.gms:play-services-base:8.3.0:18:5
+MERGED from com.google.android.gms:play-services-basement:8.3.0:18:5
+MERGED from com.android.support:support-v4:22.2.0:20:5
+MERGED from com.android.support:mediarouter-v7:22.2.0:20:5
+MERGED from com.android.support:appcompat-v7:22.2.0:20:5
+MERGED from com.android.support:support-v4:22.2.0:20:5
 	android:targetSdkVersion
 		INJECTED from AndroidManifest.xml:0:0
 		INJECTED from AndroidManifest.xml:0:0

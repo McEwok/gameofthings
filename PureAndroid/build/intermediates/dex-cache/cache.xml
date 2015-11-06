@@ -2,66 +2,73 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\6.5.87\classes.jar"
+        jar="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.2.0\libs\internal_impl-22.2.0.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="34f2a2f0845b86e4f30fb718a4fbd279951ed91a">
-        <dex dex="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\pre-dexed\debug\classes-b19eb948cf218a347eafbe0b93b874f96f0e45a0.jar" />
+        sha1="0632f06970823b7e3436f649bfa65b47035c91d0">
+        <dex dex="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-12bf68c4345cfef0e68fef60b799ef2d43b09457.jar" />
     </item>
     <item
-        jar="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jar="C:\Users\Joshua\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
-        <dex dex="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-d7b033066c464b83714fcd1850d4eb7e0e32ed62.jar" />
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\pre-dexed\debug\support-annotations-22.2.0-728d024e1af7542b790d3a500d0150f199bd6214.jar" />
     </item>
     <item
-        jar="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\6.5.87\classes.jar"
+        jar="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\classes.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="95482e7c792a7c0d5a9d5461e97726bd54fe9549">
-        <dex dex="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\pre-dexed\debug\classes-a99688611ac2b50376d02cfba756c8a8e0b4c828.jar" />
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\pre-dexed\debug\classes-56ddb75cd724b9891415242c39ad023bf174eb7d.jar" />
     </item>
     <item
-        jar="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jar="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.2.0\classes.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
-        <dex dex="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\pre-dexed\debug\classes-bbfb6f1160802407de520a066547ec1e566cf4cc.jar" />
+        sha1="dcf8c83c3dead00a6c4fe313e95f7aaca20dc641">
+        <dex dex="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\pre-dexed\debug\classes-4257760c11ef4eb21b78bbc0513f5f93aca0752c.jar" />
     </item>
     <item
-        jar="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\21.0.3\classes.jar"
+        jar="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\libs\internal_impl-22.2.0.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="5dc9da0a5a17b7b4d607a9b3aef0fb1245a8804f">
-        <dex dex="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\pre-dexed\debug\classes-5cf2c8e0ad1197de7f8db12dc49062eedb3bee5b.jar" />
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-07763785e378b719cf77fbab049fea04310323b4.jar" />
     </item>
     <item
-        jar="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\21.0.3\libs\internal_impl-21.0.3.jar"
+        jar="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\8.3.0\classes.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="96d5b5061120b177878f02ae4c10aa6f09cbff02">
-        <dex dex="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-27ba0b7b481ec13dbca707335562c425225c3509.jar" />
+        sha1="cb4af597d079ffdc0984a3ec2c03cbf6a1b9f869">
+        <dex dex="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\pre-dexed\debug\classes-5c414267b417d556825c5f0333f625228005409f.jar" />
     </item>
     <item
-        jar="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jar="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\classes.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
-        <dex dex="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\pre-dexed\debug\classes-c15bbcaa9c6a9bf9f02d349f202b63dd3379e088.jar" />
+        sha1="01a90bbb9495a8bbf6f3cfdf12f1b35caaa9524b">
+        <dex dex="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\pre-dexed\debug\classes-e964ffbf82934add5bf41a0d5b0920e0833cda5e.jar" />
     </item>
     <item
-        jar="C:\Users\Joshua\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jar="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\classes.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
-        <dex dex="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-0f95c1b62a66b9bc5d6b3e5361947d4c4a6b71f3.jar" />
+        sha1="345a1b5cf5b144ce18ba6962bc66a7e2f26c1c1b">
+        <dex dex="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\pre-dexed\debug\classes-21dc2543a1555f6f28b2365b967a841e5b7db651.jar" />
+    </item>
+    <item
+        jar="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\pre-dexed\debug\classes-68edeb88c0225022f25558183c8ded6b13f3061c.jar" />
     </item>
     <item
         jar="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\exploded-aar\PureAndroid\CastCompanionLibrary-android-master\unspecified\release\classes.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="c4e91e332a8f197674bf46807e384208cd93a269">
+        sha1="33ce25675b6d12f7c5f587d1039cbd19ce4b5f7a">
         <dex dex="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\pre-dexed\debug\classes-6fd793807f276d31bbf2e72fd4b13027166b22a1.jar" />
     </item>
 

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="60dp" >
+    <TextView
+        android:id="@+id/listTV"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center_vertical"
+        android:textSize="42sp"
+        android:typeface="sans" />
+</LinearLayout><!-- From: file:/C:/Users/Joshua/Documents/GitHub/gameofthings/PureAndroid/partythings/src/main/res/layout/list_layout.xml -->
