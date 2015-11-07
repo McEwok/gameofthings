@@ -42,6 +42,8 @@ public class CastServiceMock implements ICommunicator, IMsgHandler {
         events.add(CommunicatorEvents.EnterResponseExit);
         events.add(CommunicatorEvents.PickResponseEnter);
         events.add(CommunicatorEvents.PickResponseExit);
+        events.add(CommunicatorEvents.PickPlayerEnter);
+        events.add(CommunicatorEvents.PickPlayerExit);
         _messageHub.RegisterMsgr(this, events);
     }
     Random rdm = new Random();
@@ -61,11 +63,15 @@ public class CastServiceMock implements ICommunicator, IMsgHandler {
             if (message == "EnterResponse") {
                 _messageHub.SendMessage(CommunicatorEvents.EnterResponseEnter, "Donuts");
             } else if (message == "PickResponse"){
-                _messageHub.SendMessage(CommunicatorEvents.PickResponseEnter, "A:::B:::C");
-            }
+                _messageHub.SendMessage(CommunicatorEvents.PickResponseEnter, "Farts:::Burps:::Cows");
+            } else if (message == "PickPlayer");
+                _messageHub.SendMessage(CommunicatorEvents.PickPlayerEnter,"Jeremy:::AJ:::Josh");
         } else if(eventType == CommunicatorEvents.EnterResponseExit) {
             System.out.println(message);
             _messageHub.SendMessage(CommunicatorEvents.WaitingEnter,"PickResponse");
+        } else if(eventType == CommunicatorEvents.PickResponseExit){
+            System.out.println(message);
+            _messageHub.SendMessage(CommunicatorEvents.WaitingEnter,"PickPlayer");
         }
         /*
             GOOGLE: String Parsing in JAVA (Split) "Response A ::::: Response B ::::: Response C"

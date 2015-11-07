@@ -11,586 +11,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63b42693-35ca-4fc0-9695-7680a1a9ee97" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/partythings/src/main/java/com/twomoons/factory/partythings/MyListAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_22_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/partythings/src/main/res/layout/list_layout.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_base_8_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_basement_8_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_cast_8_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_annotations_22_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_22_2_0.xml" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\.idea\libraries\byte_buddy_0_6_8.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\.idea\libraries\hamcrest_core_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\.idea\libraries\mockito_core_2_0_13_beta.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\.idea\libraries\play_services_base_6_5_87.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\.idea\libraries\play_services_cast_6_5_87.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\classes\debug\com\google\sample\castcompanionlibrary\R$raw.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\classes\debug\com\twomoons\factory\partythings\R$raw.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\pre-dexed\debug\classes-5cf2c8e0ad1197de7f8db12dc49062eedb3bee5b.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\pre-dexed\debug\classes-a99688611ac2b50376d02cfba756c8a8e0b4c828.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\pre-dexed\debug\classes-b19eb948cf218a347eafbe0b93b874f96f0e45a0.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\pre-dexed\debug\classes-bbfb6f1160802407de520a066547ec1e566cf4cc.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\pre-dexed\debug\classes-c15bbcaa9c6a9bf9f02d349f202b63dd3379e088.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-27ba0b7b481ec13dbca707335562c425225c3509.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-d7b033066c464b83714fcd1850d4eb7e0e32ed62.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-0f95c1b62a66b9bc5d6b3e5361947d4c4a6b71f3.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\color\common_signin_btn_text_dark.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\color\common_signin_btn_text_light.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-hdpi-v4\abc_ab_share_pack_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-hdpi-v4\abc_ab_share_pack_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-hdpi-v4\common_signin_btn_icon_disabled_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-hdpi-v4\common_signin_btn_icon_disabled_focus_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-hdpi-v4\common_signin_btn_icon_disabled_focus_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-hdpi-v4\common_signin_btn_icon_disabled_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-hdpi-v4\common_signin_btn_icon_focus_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-hdpi-v4\common_signin_btn_icon_focus_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-hdpi-v4\common_signin_btn_icon_normal_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-hdpi-v4\common_signin_btn_icon_normal_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-hdpi-v4\common_signin_btn_icon_pressed_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-hdpi-v4\common_signin_btn_icon_pressed_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-hdpi-v4\common_signin_btn_text_disabled_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-hdpi-v4\common_signin_btn_text_disabled_focus_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-hdpi-v4\common_signin_btn_text_disabled_focus_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-hdpi-v4\common_signin_btn_text_disabled_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-hdpi-v4\common_signin_btn_text_focus_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-hdpi-v4\common_signin_btn_text_focus_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-hdpi-v4\common_signin_btn_text_normal_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-hdpi-v4\common_signin_btn_text_normal_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-hdpi-v4\common_signin_btn_text_pressed_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-hdpi-v4\common_signin_btn_text_pressed_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-hdpi-v4\ic_plusone_medium_off_client.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-hdpi-v4\ic_plusone_small_off_client.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-hdpi-v4\ic_plusone_standard_off_client.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-hdpi-v4\ic_plusone_tall_off_client.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-hdpi-v4\mr_ic_media_route_disabled_holo_dark.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-hdpi-v4\mr_ic_media_route_disabled_holo_light.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-hdpi-v4\mr_ic_media_route_off_holo_dark.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-hdpi-v4\mr_ic_media_route_off_holo_light.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-hdpi-v4\mr_ic_media_route_on_0_holo_dark.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-hdpi-v4\mr_ic_media_route_on_0_holo_light.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-hdpi-v4\mr_ic_media_route_on_1_holo_dark.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-hdpi-v4\mr_ic_media_route_on_1_holo_light.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-hdpi-v4\mr_ic_media_route_on_2_holo_dark.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-hdpi-v4\mr_ic_media_route_on_2_holo_light.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-hdpi-v4\mr_ic_media_route_on_holo_dark.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-hdpi-v4\mr_ic_media_route_on_holo_light.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-mdpi-v4\abc_ab_share_pack_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-mdpi-v4\abc_ab_share_pack_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-mdpi-v4\common_signin_btn_icon_disabled_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-mdpi-v4\common_signin_btn_icon_disabled_focus_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-mdpi-v4\common_signin_btn_icon_disabled_focus_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-mdpi-v4\common_signin_btn_icon_disabled_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-mdpi-v4\common_signin_btn_icon_focus_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-mdpi-v4\common_signin_btn_icon_focus_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-mdpi-v4\common_signin_btn_icon_normal_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-mdpi-v4\common_signin_btn_icon_normal_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-mdpi-v4\common_signin_btn_icon_pressed_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-mdpi-v4\common_signin_btn_icon_pressed_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-mdpi-v4\common_signin_btn_text_disabled_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-mdpi-v4\common_signin_btn_text_disabled_focus_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-mdpi-v4\common_signin_btn_text_disabled_focus_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-mdpi-v4\common_signin_btn_text_disabled_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-mdpi-v4\common_signin_btn_text_focus_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-mdpi-v4\common_signin_btn_text_focus_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-mdpi-v4\common_signin_btn_text_normal_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-mdpi-v4\common_signin_btn_text_normal_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-mdpi-v4\common_signin_btn_text_pressed_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-mdpi-v4\common_signin_btn_text_pressed_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-mdpi-v4\ic_plusone_medium_off_client.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-mdpi-v4\ic_plusone_small_off_client.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-mdpi-v4\ic_plusone_standard_off_client.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-mdpi-v4\ic_plusone_tall_off_client.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-mdpi-v4\mr_ic_media_route_disabled_holo_dark.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-mdpi-v4\mr_ic_media_route_disabled_holo_light.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-mdpi-v4\mr_ic_media_route_off_holo_dark.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-mdpi-v4\mr_ic_media_route_off_holo_light.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-mdpi-v4\mr_ic_media_route_on_0_holo_dark.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-mdpi-v4\mr_ic_media_route_on_0_holo_light.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-mdpi-v4\mr_ic_media_route_on_1_holo_dark.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-mdpi-v4\mr_ic_media_route_on_1_holo_light.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-mdpi-v4\mr_ic_media_route_on_2_holo_dark.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-mdpi-v4\mr_ic_media_route_on_2_holo_light.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-mdpi-v4\mr_ic_media_route_on_holo_dark.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-mdpi-v4\mr_ic_media_route_on_holo_light.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-tvdpi-v4\ic_plusone_medium_off_client.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-tvdpi-v4\ic_plusone_small_off_client.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-tvdpi-v4\ic_plusone_standard_off_client.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-tvdpi-v4\ic_plusone_tall_off_client.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-xhdpi-v4\abc_ab_share_pack_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-xhdpi-v4\abc_ab_share_pack_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-xhdpi-v4\common_signin_btn_icon_disabled_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-xhdpi-v4\common_signin_btn_icon_disabled_focus_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-xhdpi-v4\common_signin_btn_icon_disabled_focus_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-xhdpi-v4\common_signin_btn_icon_disabled_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-xhdpi-v4\common_signin_btn_icon_focus_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-xhdpi-v4\common_signin_btn_icon_focus_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-xhdpi-v4\common_signin_btn_icon_normal_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-xhdpi-v4\common_signin_btn_icon_normal_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-xhdpi-v4\common_signin_btn_icon_pressed_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-xhdpi-v4\common_signin_btn_icon_pressed_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-xhdpi-v4\common_signin_btn_text_disabled_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-xhdpi-v4\common_signin_btn_text_disabled_focus_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-xhdpi-v4\common_signin_btn_text_disabled_focus_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-xhdpi-v4\common_signin_btn_text_disabled_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-xhdpi-v4\common_signin_btn_text_focus_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-xhdpi-v4\common_signin_btn_text_focus_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-xhdpi-v4\common_signin_btn_text_normal_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-xhdpi-v4\common_signin_btn_text_normal_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-xhdpi-v4\common_signin_btn_text_pressed_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-xhdpi-v4\common_signin_btn_text_pressed_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-xhdpi-v4\ic_plusone_medium_off_client.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-xhdpi-v4\ic_plusone_small_off_client.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-xhdpi-v4\ic_plusone_standard_off_client.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-xhdpi-v4\ic_plusone_tall_off_client.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-xhdpi-v4\mr_ic_media_route_disabled_holo_dark.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-xhdpi-v4\mr_ic_media_route_disabled_holo_light.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-xhdpi-v4\mr_ic_media_route_off_holo_dark.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-xhdpi-v4\mr_ic_media_route_off_holo_light.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-xhdpi-v4\mr_ic_media_route_on_0_holo_dark.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-xhdpi-v4\mr_ic_media_route_on_0_holo_light.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-xhdpi-v4\mr_ic_media_route_on_1_holo_dark.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-xhdpi-v4\mr_ic_media_route_on_1_holo_light.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-xhdpi-v4\mr_ic_media_route_on_2_holo_dark.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-xhdpi-v4\mr_ic_media_route_on_2_holo_light.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-xhdpi-v4\mr_ic_media_route_on_holo_dark.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-xhdpi-v4\mr_ic_media_route_on_holo_light.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-xxhdpi-v4\abc_ab_share_pack_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-xxhdpi-v4\abc_ab_share_pack_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-xxhdpi-v4\common_signin_btn_icon_disabled_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-xxhdpi-v4\common_signin_btn_icon_disabled_focus_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-xxhdpi-v4\common_signin_btn_icon_disabled_focus_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-xxhdpi-v4\common_signin_btn_icon_disabled_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-xxhdpi-v4\common_signin_btn_icon_focus_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-xxhdpi-v4\common_signin_btn_icon_focus_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-xxhdpi-v4\common_signin_btn_icon_normal_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-xxhdpi-v4\common_signin_btn_icon_normal_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-xxhdpi-v4\common_signin_btn_icon_pressed_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-xxhdpi-v4\common_signin_btn_icon_pressed_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-xxhdpi-v4\common_signin_btn_text_disabled_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-xxhdpi-v4\common_signin_btn_text_disabled_focus_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-xxhdpi-v4\common_signin_btn_text_disabled_focus_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-xxhdpi-v4\common_signin_btn_text_disabled_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-xxhdpi-v4\common_signin_btn_text_focus_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-xxhdpi-v4\common_signin_btn_text_focus_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-xxhdpi-v4\common_signin_btn_text_normal_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-xxhdpi-v4\common_signin_btn_text_normal_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-xxhdpi-v4\common_signin_btn_text_pressed_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-xxhdpi-v4\common_signin_btn_text_pressed_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-xxhdpi-v4\ic_plusone_medium_off_client.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-xxhdpi-v4\ic_plusone_small_off_client.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-xxhdpi-v4\ic_plusone_standard_off_client.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-xxhdpi-v4\ic_plusone_tall_off_client.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-xxhdpi-v4\mr_ic_media_route_disabled_holo_dark.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-xxhdpi-v4\mr_ic_media_route_disabled_holo_light.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-xxhdpi-v4\mr_ic_media_route_off_holo_dark.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-xxhdpi-v4\mr_ic_media_route_off_holo_light.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-xxhdpi-v4\mr_ic_media_route_on_0_holo_dark.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-xxhdpi-v4\mr_ic_media_route_on_0_holo_light.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-xxhdpi-v4\mr_ic_media_route_on_1_holo_dark.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-xxhdpi-v4\mr_ic_media_route_on_1_holo_light.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-xxhdpi-v4\mr_ic_media_route_on_2_holo_dark.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-xxhdpi-v4\mr_ic_media_route_on_2_holo_light.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-xxhdpi-v4\mr_ic_media_route_on_holo_dark.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable-xxhdpi-v4\mr_ic_media_route_on_holo_light.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable\common_signin_btn_icon_dark.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable\common_signin_btn_icon_light.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable\common_signin_btn_text_dark.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable\common_signin_btn_text_light.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable\mr_ic_media_route_connecting_holo_dark.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable\mr_ic_media_route_connecting_holo_light.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable\mr_ic_media_route_holo_dark.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\drawable\mr_ic_media_route_holo_light.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\layout-v11\abc_screen_content_include.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\layout-v11\mr_media_route_controller_dialog.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\layout\abc_activity_chooser_view_include.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\layout\mr_media_route_controller_dialog.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\partythings\build\intermediates\res\debug\raw\gtm_analytics" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\Joshua\Documents\GitHub\gameofthings\PureAndroid\.idea\libraries\mediarouter_v7_21_0_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/mediarouter_v7_22_2_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/twomoons/factory/partythings/GetHookEnterGamePane.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/twomoons/factory/partythings/GetHookEnterGamePane.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/twomoons/factory/partythings/GetHookEnterResponsePane.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/twomoons/factory/partythings/GetHookEnterResponsePane.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/twomoons/factory/partythings/GetHookGameNamePane.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/twomoons/factory/partythings/GetHookGameNamePane.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/twomoons/factory/partythings/GetHookNotConnectedPane.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/twomoons/factory/partythings/GetHookNotConnectedPane.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/twomoons/factory/partythings/GetHookPickPlayerPane.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/twomoons/factory/partythings/GetHookPickPlayerPane.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/twomoons/factory/partythings/GetHookPickResponsePane.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/twomoons/factory/partythings/GetHookPickResponsePane.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/twomoons/factory/partythings/GetHookPromptSelectionPane.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/twomoons/factory/partythings/GetHookPromptSelectionPane.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/twomoons/factory/partythings/GetHookReadyPane.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/twomoons/factory/partythings/GetHookReadyPane.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/twomoons/factory/partythings/GetHookResultsPane.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/twomoons/factory/partythings/GetHookResultsPane.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/twomoons/factory/partythings/GetHookWaitingPane.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/twomoons/factory/partythings/GetHookWaitingPane.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/twomoons/factory/partythings/ItemSelectionAdapter.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/twomoons/factory/partythings/ItemSelectionAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/twomoons/factory/partythings/MainActivity.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/twomoons/factory/partythings/MainActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/android/support/v7/appcompat/R$anim.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/android/support/v7/appcompat/R$anim.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/android/support/v7/mediarouter/R$anim.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/android/support/v7/mediarouter/R$anim.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/google/sample/castcompanionlibrary/R$anim.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/google/sample/castcompanionlibrary/R$anim.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/twomoons/factory/partythings/R$anim.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/twomoons/factory/partythings/R$anim.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/google/sample/castcompanionlibrary/R$array.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/google/sample/castcompanionlibrary/R$array.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/twomoons/factory/partythings/R$array.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/twomoons/factory/partythings/R$array.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/android/support/v7/appcompat/R$attr.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/android/support/v7/appcompat/R$attr.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/android/support/v7/mediarouter/R$attr.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/android/support/v7/mediarouter/R$attr.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/google/android/gms/R$attr.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/google/android/gms/R$attr.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/google/android/gms/cast/R$attr.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/google/android/gms/cast/R$attr.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/google/sample/castcompanionlibrary/R$attr.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/google/sample/castcompanionlibrary/R$attr.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/twomoons/factory/partythings/R$attr.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/twomoons/factory/partythings/R$attr.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/android/support/v7/appcompat/R$bool.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/android/support/v7/appcompat/R$bool.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/android/support/v7/mediarouter/R$bool.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/android/support/v7/mediarouter/R$bool.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/google/sample/castcompanionlibrary/R$bool.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/google/sample/castcompanionlibrary/R$bool.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/twomoons/factory/partythings/R$bool.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/twomoons/factory/partythings/R$bool.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/android/support/v7/appcompat/R$color.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/android/support/v7/appcompat/R$color.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/android/support/v7/mediarouter/R$color.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/android/support/v7/mediarouter/R$color.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/google/android/gms/R$color.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/google/android/gms/R$color.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/google/android/gms/cast/R$color.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/google/android/gms/cast/R$color.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/google/sample/castcompanionlibrary/R$color.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/google/sample/castcompanionlibrary/R$color.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/twomoons/factory/partythings/R$color.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/twomoons/factory/partythings/R$color.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/android/support/v7/appcompat/R$dimen.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/android/support/v7/appcompat/R$dimen.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/android/support/v7/mediarouter/R$dimen.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/android/support/v7/mediarouter/R$dimen.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/google/sample/castcompanionlibrary/R$dimen.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/google/sample/castcompanionlibrary/R$dimen.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/twomoons/factory/partythings/R$dimen.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/twomoons/factory/partythings/R$dimen.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/android/support/v7/appcompat/R$drawable.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/android/support/v7/appcompat/R$drawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/android/support/v7/mediarouter/R$drawable.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/android/support/v7/mediarouter/R$drawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/google/android/gms/R$drawable.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/google/android/gms/R$drawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/google/android/gms/cast/R$drawable.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/google/android/gms/cast/R$drawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/google/sample/castcompanionlibrary/R$drawable.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/google/sample/castcompanionlibrary/R$drawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/twomoons/factory/partythings/R$drawable.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/twomoons/factory/partythings/R$drawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/android/support/v7/mediarouter/R$id.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/android/support/v7/mediarouter/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/google/android/gms/R$id.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/google/android/gms/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/google/android/gms/cast/R$id.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/google/android/gms/cast/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/google/sample/castcompanionlibrary/R$id.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/google/sample/castcompanionlibrary/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/twomoons/factory/partythings/R$id.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/twomoons/factory/partythings/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/android/support/v7/appcompat/R$integer.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/android/support/v7/appcompat/R$integer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/android/support/v7/mediarouter/R$integer.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/android/support/v7/mediarouter/R$integer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/google/android/gms/R$integer.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/google/android/gms/R$integer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/google/android/gms/cast/R$integer.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/google/android/gms/cast/R$integer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/google/sample/castcompanionlibrary/R$integer.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/google/sample/castcompanionlibrary/R$integer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/twomoons/factory/partythings/R$integer.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/twomoons/factory/partythings/R$integer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/android/support/v7/appcompat/R$layout.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/android/support/v7/appcompat/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/android/support/v7/mediarouter/R$layout.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/android/support/v7/mediarouter/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/google/sample/castcompanionlibrary/R$layout.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/google/sample/castcompanionlibrary/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/twomoons/factory/partythings/R$layout.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/twomoons/factory/partythings/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/google/sample/castcompanionlibrary/R$menu.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/google/sample/castcompanionlibrary/R$menu.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/twomoons/factory/partythings/R$menu.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/twomoons/factory/partythings/R$menu.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/twomoons/factory/partythings/R$mipmap.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/twomoons/factory/partythings/R$mipmap.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/google/android/gms/R$raw.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/google/android/gms/R$raw.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/google/android/gms/cast/R$raw.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/google/android/gms/cast/R$raw.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/android/support/v7/appcompat/R$string.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/android/support/v7/appcompat/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/android/support/v7/mediarouter/R$string.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/android/support/v7/mediarouter/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/google/android/gms/R$string.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/google/android/gms/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/google/android/gms/cast/R$string.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/google/android/gms/cast/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/google/sample/castcompanionlibrary/R$string.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/google/sample/castcompanionlibrary/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/twomoons/factory/partythings/R$string.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/twomoons/factory/partythings/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/android/support/v7/appcompat/R$style.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/android/support/v7/appcompat/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/android/support/v7/mediarouter/R$style.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/android/support/v7/mediarouter/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/google/android/gms/R$style.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/google/android/gms/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/google/android/gms/cast/R$style.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/google/android/gms/cast/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/google/sample/castcompanionlibrary/R$style.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/google/sample/castcompanionlibrary/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/twomoons/factory/partythings/R$style.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/twomoons/factory/partythings/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/android/support/v7/appcompat/R$styleable.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/android/support/v7/appcompat/R$styleable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/android/support/v7/mediarouter/R$styleable.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/android/support/v7/mediarouter/R$styleable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/google/android/gms/R$styleable.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/google/android/gms/R$styleable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/google/android/gms/cast/R$styleable.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/google/android/gms/cast/R$styleable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/google/sample/castcompanionlibrary/R$styleable.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/google/sample/castcompanionlibrary/R$styleable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/twomoons/factory/partythings/R$styleable.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/twomoons/factory/partythings/R$styleable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/google/sample/castcompanionlibrary/R$xml.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/google/sample/castcompanionlibrary/R$xml.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/twomoons/factory/partythings/R$xml.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/twomoons/factory/partythings/R$xml.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/android/support/v7/appcompat/R.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/android/support/v7/appcompat/R.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/android/support/v7/mediarouter/R.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/android/support/v7/mediarouter/R.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/google/android/gms/R.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/google/android/gms/R.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/google/android/gms/cast/R.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/google/android/gms/cast/R.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/google/sample/castcompanionlibrary/R.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/google/sample/castcompanionlibrary/R.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/twomoons/factory/partythings/R.class" afterPath="$PROJECT_DIR$/partythings/build/intermediates/classes/debug/com/twomoons/factory/partythings/R.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-hdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-hdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-ldrtl-hdpi-v17/abc_ic_ab_back_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-ldrtl-hdpi-v17/abc_ic_ab_back_mtrl_am_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-ldrtl-mdpi-v17/abc_ic_ab_back_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-ldrtl-mdpi-v17/abc_ic_ab_back_mtrl_am_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-ldrtl-xhdpi-v17/abc_ic_ab_back_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-ldrtl-xhdpi-v17/abc_ic_ab_back_mtrl_am_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-ldrtl-xxhdpi-v17/abc_ic_ab_back_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-ldrtl-xxhdpi-v17/abc_ic_ab_back_mtrl_am_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-ldrtl-xxxhdpi-v17/abc_ic_ab_back_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-ldrtl-xxxhdpi-v17/abc_ic_ab_back_mtrl_am_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-mdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-mdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xhdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xhdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xxhdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xxhdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xxxhdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xxxhdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-hdpi-v4/abc_ic_clear_mtrl_alpha.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-hdpi-v4/abc_ic_clear_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-mdpi-v4/abc_ic_clear_mtrl_alpha.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-mdpi-v4/abc_ic_clear_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xhdpi-v4/abc_ic_clear_mtrl_alpha.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xhdpi-v4/abc_ic_clear_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xxhdpi-v4/abc_ic_clear_mtrl_alpha.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xxhdpi-v4/abc_ic_clear_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xxxhdpi-v4/abc_ic_clear_mtrl_alpha.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xxxhdpi-v4/abc_ic_clear_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-hdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-hdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-mdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-mdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xxhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xxhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-hdpi-v4/abc_ic_go_search_api_mtrl_alpha.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-hdpi-v4/abc_ic_go_search_api_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-mdpi-v4/abc_ic_go_search_api_mtrl_alpha.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-mdpi-v4/abc_ic_go_search_api_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xhdpi-v4/abc_ic_go_search_api_mtrl_alpha.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xhdpi-v4/abc_ic_go_search_api_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-hdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-hdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-ldrtl-hdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-ldrtl-hdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-ldrtl-mdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-ldrtl-mdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-ldrtl-xhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-ldrtl-xhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-ldrtl-xxhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-ldrtl-xxhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-ldrtl-xxxhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-ldrtl-xxxhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-mdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-mdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xxxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xxxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-hdpi-v4/abc_ic_menu_cut_mtrl_alpha.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-hdpi-v4/abc_ic_menu_cut_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-ldrtl-hdpi-v17/abc_ic_menu_cut_mtrl_alpha.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-ldrtl-hdpi-v17/abc_ic_menu_cut_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-ldrtl-mdpi-v17/abc_ic_menu_cut_mtrl_alpha.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-ldrtl-mdpi-v17/abc_ic_menu_cut_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-ldrtl-xhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-ldrtl-xhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-ldrtl-xxhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-ldrtl-xxhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-ldrtl-xxxhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-ldrtl-xxxhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-mdpi-v4/abc_ic_menu_cut_mtrl_alpha.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-mdpi-v4/abc_ic_menu_cut_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xxxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xxxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-hdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-hdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-mdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-mdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xhdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xhdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xxhdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xxhdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xxxhdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xxxhdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-hdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-hdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-mdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-mdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xxhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xxhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xxxhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xxxhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-hdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-hdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-mdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-mdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xxhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xxhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xxxhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xxxhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-hdpi-v4/abc_ic_menu_share_mtrl_alpha.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-hdpi-v4/abc_ic_menu_share_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-mdpi-v4/abc_ic_menu_share_mtrl_alpha.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-mdpi-v4/abc_ic_menu_share_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xhdpi-v4/abc_ic_menu_share_mtrl_alpha.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xhdpi-v4/abc_ic_menu_share_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xxhdpi-v4/abc_ic_menu_share_mtrl_alpha.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xxhdpi-v4/abc_ic_menu_share_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-hdpi-v4/abc_ic_search_api_mtrl_alpha.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-hdpi-v4/abc_ic_search_api_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-mdpi-v4/abc_ic_search_api_mtrl_alpha.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-mdpi-v4/abc_ic_search_api_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xhdpi-v4/abc_ic_search_api_mtrl_alpha.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xhdpi-v4/abc_ic_search_api_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xxhdpi-v4/abc_ic_search_api_mtrl_alpha.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xxhdpi-v4/abc_ic_search_api_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xxxhdpi-v4/abc_ic_search_api_mtrl_alpha.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xxxhdpi-v4/abc_ic_search_api_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-hdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-hdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-mdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-mdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xhdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xhdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xxhdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xxhdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xxxhdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xxxhdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-hdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-hdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-mdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-mdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xxhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xxhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-hdpi-v4/abc_popup_background_mtrl_mult.9.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-hdpi-v4/abc_popup_background_mtrl_mult.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-mdpi-v4/abc_popup_background_mtrl_mult.9.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-mdpi-v4/abc_popup_background_mtrl_mult.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xhdpi-v4/abc_popup_background_mtrl_mult.9.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xhdpi-v4/abc_popup_background_mtrl_mult.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-hdpi-v4/abc_spinner_mtrl_am_alpha.9.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-hdpi-v4/abc_spinner_mtrl_am_alpha.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-ldrtl-hdpi-v17/abc_spinner_mtrl_am_alpha.9.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-ldrtl-hdpi-v17/abc_spinner_mtrl_am_alpha.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-ldrtl-mdpi-v17/abc_spinner_mtrl_am_alpha.9.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-ldrtl-mdpi-v17/abc_spinner_mtrl_am_alpha.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-ldrtl-xhdpi-v17/abc_spinner_mtrl_am_alpha.9.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-ldrtl-xhdpi-v17/abc_spinner_mtrl_am_alpha.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-ldrtl-xxhdpi-v17/abc_spinner_mtrl_am_alpha.9.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-ldrtl-xxhdpi-v17/abc_spinner_mtrl_am_alpha.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-ldrtl-xxxhdpi-v17/abc_spinner_mtrl_am_alpha.9.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-ldrtl-xxxhdpi-v17/abc_spinner_mtrl_am_alpha.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-mdpi-v4/abc_spinner_mtrl_am_alpha.9.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-mdpi-v4/abc_spinner_mtrl_am_alpha.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xhdpi-v4/abc_spinner_mtrl_am_alpha.9.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xhdpi-v4/abc_spinner_mtrl_am_alpha.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xxxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xxxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-hdpi-v4/abc_switch_track_mtrl_alpha.9.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-hdpi-v4/abc_switch_track_mtrl_alpha.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-mdpi-v4/abc_switch_track_mtrl_alpha.9.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-mdpi-v4/abc_switch_track_mtrl_alpha.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xhdpi-v4/abc_switch_track_mtrl_alpha.9.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xhdpi-v4/abc_switch_track_mtrl_alpha.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xxhdpi-v4/abc_switch_track_mtrl_alpha.9.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xxhdpi-v4/abc_switch_track_mtrl_alpha.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xxxhdpi-v4/abc_switch_track_mtrl_alpha.9.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xxxhdpi-v4/abc_switch_track_mtrl_alpha.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xxxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xxxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-hdpi-v4/abc_textfield_activated_mtrl_alpha.9.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-hdpi-v4/abc_textfield_activated_mtrl_alpha.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-mdpi-v4/abc_textfield_activated_mtrl_alpha.9.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-mdpi-v4/abc_textfield_activated_mtrl_alpha.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xxhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xxhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-hdpi-v4/abc_textfield_default_mtrl_alpha.9.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-hdpi-v4/abc_textfield_default_mtrl_alpha.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-mdpi-v4/abc_textfield_default_mtrl_alpha.9.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-mdpi-v4/abc_textfield_default_mtrl_alpha.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xhdpi-v4/abc_textfield_default_mtrl_alpha.9.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xhdpi-v4/abc_textfield_default_mtrl_alpha.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xxhdpi-v4/abc_textfield_default_mtrl_alpha.9.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xxhdpi-v4/abc_textfield_default_mtrl_alpha.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-hdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-hdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/pre-dexed/debug/classes-6fd793807f276d31bbf2e72fd4b13027166b22a1.jar" afterPath="$PROJECT_DIR$/partythings/build/intermediates/pre-dexed/debug/classes-6fd793807f276d31bbf2e72fd4b13027166b22a1.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/dex/debug/classes.dex" afterPath="$PROJECT_DIR$/partythings/build/intermediates/dex/debug/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/exploded-aar/PureAndroid/CastCompanionLibrary-android-master/unspecified/release/classes.jar" afterPath="$PROJECT_DIR$/partythings/build/intermediates/exploded-aar/PureAndroid/CastCompanionLibrary-android-master/unspecified/release/classes.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-hdpi-v4/common_full_open_on_phone.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-hdpi-v4/common_full_open_on_phone.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/gradle_project_sync_data.bin" afterPath="$PROJECT_DIR$/build/intermediates/gradle_project_sync_data.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-hdpi-v4/mr_ic_audio_vol.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-hdpi-v4/mr_ic_audio_vol.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-mdpi-v4/mr_ic_audio_vol.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-mdpi-v4/mr_ic_audio_vol.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xhdpi-v4/mr_ic_audio_vol.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xhdpi-v4/mr_ic_audio_vol.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xxhdpi-v4/mr_ic_audio_vol.png" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable-xxhdpi-v4/mr_ic_audio_vol.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/outputFileStates.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/outputs/apk/partythings-debug-unaligned.apk" afterPath="$PROJECT_DIR$/partythings/build/outputs/apk/partythings-debug-unaligned.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/outputs/apk/partythings-debug.apk" afterPath="$PROJECT_DIR$/partythings/build/outputs/apk/partythings-debug.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/resources/resources-debug.ap_" afterPath="$PROJECT_DIR$/partythings/build/intermediates/resources/resources-debug.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/src/main/java/com/twomoons/factory/partythings/Mocks/CastServiceMock.java" afterPath="$PROJECT_DIR$/partythings/src/main/java/com/twomoons/factory/partythings/Mocks/CastServiceMock.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/src/main/java/com/twomoons/factory/partythings/GetHookPickResponsePane.java" afterPath="$PROJECT_DIR$/partythings/src/main/java/com/twomoons/factory/partythings/GetHookPickResponsePane.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/generated/source/r/debug/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/partythings/build/generated/source/r/debug/android/support/v7/appcompat/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/generated/source/r/debug/android/support/v7/mediarouter/R.java" afterPath="$PROJECT_DIR$/partythings/build/generated/source/r/debug/android/support/v7/mediarouter/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/generated/source/r/debug/com/google/android/gms/R.java" afterPath="$PROJECT_DIR$/partythings/build/generated/source/r/debug/com/google/android/gms/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/generated/source/r/debug/com/google/android/gms/cast/R.java" afterPath="$PROJECT_DIR$/partythings/build/generated/source/r/debug/com/google/android/gms/cast/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/generated/source/r/debug/com/google/sample/castcompanionlibrary/R.java" afterPath="$PROJECT_DIR$/partythings/build/generated/source/r/debug/com/google/sample/castcompanionlibrary/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/generated/source/r/debug/com/twomoons/factory/partythings/R.java" afterPath="$PROJECT_DIR$/partythings/build/generated/source/r/debug/com/twomoons/factory/partythings/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/exploded-aar/PureAndroid/CastCompanionLibrary-android-master/unspecified/release/R.txt" afterPath="$PROJECT_DIR$/partythings/build/intermediates/exploded-aar/PureAndroid/CastCompanionLibrary-android-master/unspecified/release/R.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/partythings/build/intermediates/symbols/debug/R.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/layout/abc_action_bar_title_item.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/layout/abc_action_bar_title_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/layout/abc_action_bar_up_container.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/layout/abc_action_bar_up_container.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/layout/abc_action_bar_view_list_nav_layout.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/layout/abc_action_bar_view_list_nav_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/layout/abc_action_menu_item_layout.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/layout/abc_action_menu_item_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/layout/abc_action_menu_layout.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/layout/abc_action_menu_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/layout/abc_action_mode_bar.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/layout/abc_action_mode_bar.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/layout/abc_action_mode_close_item_material.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/layout/abc_action_mode_close_item_material.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/layout/abc_activity_chooser_view.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/layout/abc_activity_chooser_view.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/layout/abc_activity_chooser_view_list_item.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/layout/abc_activity_chooser_view_list_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/color/abc_background_cache_hint_selector_material_dark.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/color/abc_background_cache_hint_selector_material_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/color/abc_background_cache_hint_selector_material_light.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/color/abc_background_cache_hint_selector_material_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable/abc_btn_check_material.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable/abc_btn_check_material.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable/abc_btn_radio_material.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable/abc_btn_radio_material.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable/abc_cab_background_internal_bg.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable/abc_cab_background_internal_bg.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable/abc_cab_background_top_material.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable/abc_cab_background_top_material.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable/abc_edit_text_material.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable/abc_edit_text_material.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/layout/abc_expanded_menu_layout.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/layout/abc_expanded_menu_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/anim/abc_fade_in.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/anim/abc_fade_in.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/anim/abc_fade_out.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/anim/abc_fade_out.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable/abc_item_background_holo_dark.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable/abc_item_background_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable/abc_item_background_holo_light.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable/abc_item_background_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/layout/abc_list_menu_item_checkbox.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/layout/abc_list_menu_item_checkbox.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/layout/abc_list_menu_item_icon.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/layout/abc_list_menu_item_icon.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/layout/abc_list_menu_item_layout.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/layout/abc_list_menu_item_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/layout/abc_list_menu_item_radio.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/layout/abc_list_menu_item_radio.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable/abc_list_selector_background_transition_holo_dark.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable/abc_list_selector_background_transition_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable/abc_list_selector_background_transition_holo_light.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable/abc_list_selector_background_transition_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable/abc_list_selector_holo_dark.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable/abc_list_selector_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable/abc_list_selector_holo_light.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable/abc_list_selector_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/layout/abc_popup_menu_item_layout.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/layout/abc_popup_menu_item_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/color/abc_primary_text_disable_only_material_dark.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/color/abc_primary_text_disable_only_material_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/color/abc_primary_text_disable_only_material_light.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/color/abc_primary_text_disable_only_material_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/color/abc_primary_text_material_dark.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/color/abc_primary_text_material_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/color/abc_primary_text_material_light.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/color/abc_primary_text_material_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/layout/abc_screen_content_include.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/layout/abc_screen_content_include.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/layout/abc_screen_simple.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/layout/abc_screen_simple.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/layout/abc_screen_simple_overlay_action_mode.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/layout/abc_screen_simple_overlay_action_mode.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/layout/abc_screen_toolbar.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/layout/abc_screen_toolbar.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/layout/abc_search_dropdown_item_icons_2line.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/layout/abc_search_dropdown_item_icons_2line.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/color/abc_search_url_text.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/color/abc_search_url_text.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/layout/abc_search_view.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/layout/abc_search_view.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/color/abc_secondary_text_material_dark.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/color/abc_secondary_text_material_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/color/abc_secondary_text_material_light.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/color/abc_secondary_text_material_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/layout/abc_simple_dropdown_hint.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/layout/abc_simple_dropdown_hint.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/anim/abc_slide_in_bottom.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/anim/abc_slide_in_bottom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/anim/abc_slide_in_top.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/anim/abc_slide_in_top.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/anim/abc_slide_out_bottom.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/anim/abc_slide_out_bottom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/anim/abc_slide_out_top.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/anim/abc_slide_out_top.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable/abc_switch_thumb_material.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable/abc_switch_thumb_material.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable/abc_tab_indicator_material.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable/abc_tab_indicator_material.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable/abc_textfield_search_material.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/drawable/abc_textfield_search_material.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_21_0_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_21_0_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CastCompanionLibrary-android-master/build.gradle" afterPath="$PROJECT_DIR$/CastCompanionLibrary-android-master/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.idea/gameofthings.iml" afterPath="$PROJECT_DIR$/../.idea/gameofthings.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/partythings/build/outputs/logs/manifest-merger-debug-report.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/incremental/mergeResources/debug/merger.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/incremental/mergeResources/debug/merger.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/layout/mr_media_route_chooser_dialog.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/layout/mr_media_route_chooser_dialog.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/layout/mr_media_route_list_item.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/layout/mr_media_route_list_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/layout-v17/mr_media_route_list_item.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/layout-v17/mr_media_route_list_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/partythings.iml" afterPath="$PROJECT_DIR$/partythings/partythings.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/layout/support_simple_spinner_dropdown_item.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/layout/support_simple_spinner_dropdown_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_21_0_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_21_0_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-af/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-af/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-am/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-am/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-ar/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-ar/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-bg/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-bg/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-bn-rBD/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-bn-rBD/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-ca/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-ca/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-cs/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-cs/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-da/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-da/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-de/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-de/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-el/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-el/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-en-rGB/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-en-rGB/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-en-rIN/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-en-rIN/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-es/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-es/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-es-rUS/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-es-rUS/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-et-rEE/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-et-rEE/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-eu-rES/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-eu-rES/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-fa/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-fa/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-fi/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-fi/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-fr/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-fr/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-fr-rCA/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-fr-rCA/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-gl-rES/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-gl-rES/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-hi/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-hi/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-hr/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-hr/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-hu/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-hu/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-hy-rAM/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-hy-rAM/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-in/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-in/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-is-rIS/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-is-rIS/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-it/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-it/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-iw/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-iw/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-ja/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-ja/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-ka-rGE/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-ka-rGE/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-kk-rKZ/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-kk-rKZ/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-km-rKH/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-km-rKH/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-kn-rIN/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-kn-rIN/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-ko/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-ko/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-ky-rKG/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-ky-rKG/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-land/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-land/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-large-v4/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-large-v4/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-lo-rLA/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-lo-rLA/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-lt/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-lt/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-lv/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-lv/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-mk-rMK/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-mk-rMK/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-ml-rIN/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-ml-rIN/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-mn-rMN/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-mn-rMN/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-mr-rIN/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-mr-rIN/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-ms-rMY/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-ms-rMY/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-my-rMM/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-my-rMM/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-nb/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-nb/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-ne-rNP/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-ne-rNP/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-nl/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-nl/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-pl/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-pl/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-port/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-port/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-pt/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-pt/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-pt-rBR/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-pt-rBR/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-pt-rPT/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-pt-rPT/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-ro/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-ro/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-ru/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-ru/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-si-rLK/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-si-rLK/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-sk/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-sk/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-sl/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-sl/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-sr/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-sr/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-sv/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-sv/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-sw/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-sw/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-sw600dp-v13/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-sw600dp-v13/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-ta-rIN/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-ta-rIN/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-te-rIN/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-te-rIN/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-th/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-th/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-tl/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-tl/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-tr/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-tr/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-uk/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-uk/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-ur-rPK/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-ur-rPK/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-uz-rUZ/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-uz-rUZ/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-v11/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-v11/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-v14/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-v14/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-v17/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-v17/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-v21/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-v21/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-vi/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-vi/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-w360dp-v13/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-w360dp-v13/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-w480dp-v13/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-w480dp-v13/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-w500dp-v13/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-w500dp-v13/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-w600dp-v13/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-w600dp-v13/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-w720dp-v13/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-w720dp-v13/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-xlarge-land-v4/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-xlarge-land-v4/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-xlarge-v4/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-xlarge-v4/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-zh-rCN/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-zh-rCN/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-zh-rHK/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-zh-rHK/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-zh-rTW/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-zh-rTW/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-zu/values.xml" afterPath="$PROJECT_DIR$/partythings/build/intermediates/res/debug/values-zu/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.idea/workspace.xml" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PureAndroid.iws" />
@@ -640,7 +71,7 @@
       <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/partythings/src/main/res/layout/activity_main.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="-0.0">
               <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
               <folding />
             </state>
@@ -667,34 +98,35 @@
         <entry file="file://$PROJECT_DIR$/partythings/src/main/java/com/twomoons/factory/partythings/Mocks/CastServiceMock.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="68" column="9" selection-start-line="68" selection-start-column="9" selection-end-line="68" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#835#855#0" expanded="false" />
-              </folding>
+              <caret line="65" column="99" selection-start-line="65" selection-start-column="99" selection-end-line="65" selection-end-column="99" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GetHookPickResponsePane.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GetHookPickPlayerPane.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/partythings/src/main/java/com/twomoons/factory/partythings/GetHookPickPlayerPane.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.23971377">
+              <caret line="17" column="73" selection-start-line="17" selection-start-column="73" selection-end-line="17" selection-end-column="73" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GetHookPickResponsePane.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/partythings/src/main/java/com/twomoons/factory/partythings/GetHookPickResponsePane.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.30898875">
-              <caret line="44" column="32" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="32" />
-              <folding>
-                <element signature="e#1491#1492#0" expanded="true" />
-                <element signature="e#1553#1554#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyListAdapter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/partythings/src/main/java/com/twomoons/factory/partythings/MyListAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="61" column="56" selection-start-line="61" selection-start-column="56" selection-end-line="61" selection-end-column="56" />
-              <folding />
+              <caret line="72" column="51" selection-start-line="72" selection-start-column="51" selection-end-line="72" selection-end-column="51" />
+              <folding>
+                <element signature="e#1398#1399#0" expanded="true" />
+                <element signature="e#1474#1475#0" expanded="true" />
+                <element signature="e#1580#1581#0" expanded="true" />
+                <element signature="e#1642#1643#0" expanded="true" />
+                <element signature="e#2240#2604#0" expanded="true" />
+                <element signature="e#2603#2604#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -3266,13 +2698,13 @@
         <option value="$PROJECT_DIR$/partythings/src/main/java/com/twomoons/factory/partythings/GetHookWaitingPane.java" />
         <option value="$PROJECT_DIR$/partythings/src/main/res/layout/simple_row.xml" />
         <option value="$PROJECT_DIR$/partythings/src/main/res/layout/simplerow.xml" />
-        <option value="$PROJECT_DIR$/partythings/src/main/java/com/twomoons/factory/partythings/Mocks/CastServiceMock.java" />
         <option value="$PROJECT_DIR$/partythings/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/partythings/src/main/java/com/twomoons/factory/partythings/MainActivity.java" />
         <option value="$PROJECT_DIR$/CastCompanionLibrary-android-master/build.gradle" />
         <option value="$PROJECT_DIR$/partythings/src/main/java/com/twomoons/factory/partythings/MyListAdapter.java" />
         <option value="$PROJECT_DIR$/partythings/src/main/res/layout/list_layout.xml" />
         <option value="$PROJECT_DIR$/partythings/src/main/java/com/twomoons/factory/partythings/GetHookPickResponsePane.java" />
+        <option value="$PROJECT_DIR$/partythings/src/main/java/com/twomoons/factory/partythings/Mocks/CastServiceMock.java" />
       </list>
     </option>
   </component>
@@ -3290,8 +2722,9 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="684" />
-    <option name="width" value="673" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -3317,6 +2750,10 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -3423,10 +2860,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -3667,7 +3100,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="684" y="0" width="673" height="744" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -3678,24 +3111,24 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290469" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32864675" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.87170476" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4649266" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25037822" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290469" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962063" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5621806" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.56227756" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18251534" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32864675" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32879046" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -3887,13 +3320,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/partythings/src/main/java/com/twomoons/factory/partythings/GetHookPickPlayerPane.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/partythings/src/main/java/com/twomoons/factory/partythings/ItemSelectionAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -3961,20 +3387,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8175313">
           <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/partythings/src/main/java/com/twomoons/factory/partythings/GetHookWaitingPane.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/partythings/src/main/java/com/twomoons/factory/partythings/GetHookEnterResponsePane.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -4060,6 +3472,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.68079096">
           <caret line="37" column="27" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -4067,17 +3480,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/partythings/src/main/java/com/twomoons/factory/partythings/Mocks/CastServiceMock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="68" column="9" selection-start-line="68" selection-start-column="9" selection-end-line="68" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#835#855#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -4118,14 +3521,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/partythings/src/main/java/com/twomoons/factory/partythings/GetHookEnterResponsePane.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.54382825">
+          <caret line="38" column="79" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/partythings/src/main/java/com/twomoons/factory/partythings/GetHookPickResponsePane.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30898875">
-          <caret line="44" column="32" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="72" column="51" selection-start-line="72" selection-start-column="51" selection-end-line="72" selection-end-column="51" />
           <folding>
-            <element signature="e#1491#1492#0" expanded="true" />
-            <element signature="e#1553#1554#0" expanded="true" />
+            <element signature="e#1398#1399#0" expanded="true" />
+            <element signature="e#1474#1475#0" expanded="true" />
+            <element signature="e#1580#1581#0" expanded="true" />
+            <element signature="e#1642#1643#0" expanded="true" />
+            <element signature="e#2240#2604#0" expanded="true" />
+            <element signature="e#2603#2604#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partythings/src/main/java/com/twomoons/factory/partythings/GetHookWaitingPane.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partythings/src/main/java/com/twomoons/factory/partythings/Mocks/CastServiceMock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="65" column="99" selection-start-line="65" selection-start-column="99" selection-end-line="65" selection-end-column="99" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partythings/src/main/java/com/twomoons/factory/partythings/GetHookPickPlayerPane.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23971377">
+          <caret line="17" column="73" selection-start-line="17" selection-start-column="73" selection-end-line="17" selection-end-column="73" />
+          <folding />
         </state>
       </provider>
     </entry>
