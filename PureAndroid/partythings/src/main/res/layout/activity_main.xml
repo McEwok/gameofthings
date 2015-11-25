@@ -216,11 +216,13 @@
         android:id="@+id/pickPlayerPane"
         android:visibility="gone"
         android:orientation="vertical">
-        <TextView android:text="@string/choose_player" android:layout_width="wrap_content"
+        <TextView android:text="@string/choose_player"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/pickPlayerText"
             android:layout_gravity="center_horizontal"/>
-        <TextView android:text="@string/placeholder" android:layout_width="wrap_content"
+        <TextView android:text="@string/placeholder"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/pickPlayerChosenResponseText"
             android:layout_gravity="center_horizontal"/>

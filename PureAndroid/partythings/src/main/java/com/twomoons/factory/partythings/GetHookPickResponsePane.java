@@ -68,8 +68,8 @@ public class GetHookPickResponsePane extends ListActivity implements IMsgHandler
 
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                String value = (String) ghPickResponseList.getItemAtPosition(i);
                 hidePane();
+                String value = (String) ghPickResponseList.getItemAtPosition(i);
                 hub.SendMessage(CommunicatorEvents.PickResponseExit, value);
             }
         });

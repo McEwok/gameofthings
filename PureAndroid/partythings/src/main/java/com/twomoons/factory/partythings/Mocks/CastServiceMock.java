@@ -44,6 +44,8 @@ public class CastServiceMock implements ICommunicator, IMsgHandler {
         events.add(CommunicatorEvents.PickResponseExit);
         events.add(CommunicatorEvents.PickPlayerEnter);
         events.add(CommunicatorEvents.PickPlayerExit);
+        events.add(CommunicatorEvents.ResultsEnter);
+        events.add(CommunicatorEvents.ResultsExit);
         _messageHub.RegisterMsgr(this, events);
     }
     Random rdm = new Random();
@@ -64,14 +66,20 @@ public class CastServiceMock implements ICommunicator, IMsgHandler {
                 _messageHub.SendMessage(CommunicatorEvents.EnterResponseEnter, "Donuts");
             } else if (message == "PickResponse"){
                 _messageHub.SendMessage(CommunicatorEvents.PickResponseEnter, "Farts:::Burps:::Cows");
-            } else if (message == "PickPlayer");
-                _messageHub.SendMessage(CommunicatorEvents.PickPlayerEnter,"Jeremy:::AJ:::Josh");
+            } else if (message == "PickPlayer") {
+                _messageHub.SendMessage(CommunicatorEvents.PickPlayerEnter, "Farts:::Josh:::Jeremy:::AJ");
+            } else if (message == "Results") {
+                _messageHub.SendMessage(CommunicatorEvents.ResultsEnter,"Josh:::Farts:::Correct");
+            }
         } else if(eventType == CommunicatorEvents.EnterResponseExit) {
             System.out.println(message);
             _messageHub.SendMessage(CommunicatorEvents.WaitingEnter,"PickResponse");
         } else if(eventType == CommunicatorEvents.PickResponseExit){
             System.out.println(message);
             _messageHub.SendMessage(CommunicatorEvents.WaitingEnter,"PickPlayer");
+        } else if(eventType == CommunicatorEvents.PickPlayerExit) {
+            System.out.println(message);
+            _messageHub.SendMessage(CommunicatorEvents.WaitingEnter,"Results");
         }
         /*
             GOOGLE: String Parsing in JAVA (Split) "Response A ::::: Response B ::::: Response C"
