@@ -60,10 +60,10 @@ public class GetHookPickPlayerPane implements IMsgHandler{
 
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                //hidePane();
+                hidePane();
                 String value = (String) ghPickPlayerList.getItemAtPosition(i);
-                Toast.makeText(ctx, value, Toast.LENGTH_LONG).show();
-                //hub.SendMessage(CommunicatorEvents.PickPlayerExit, value);
+                //Toast.makeText(ctx, value, Toast.LENGTH_LONG).show();
+                hub.SendMessage(CommunicatorEvents.PickPlayerExit, value);
             }
         });
     }

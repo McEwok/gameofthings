@@ -16,6 +16,9 @@ public class GetHookResultsPane implements IMsgHandler{
     private final TextView ghChosenResponseText;
     private final TextView ghSuccessRateIntroText;
     private final TextView ghSuccessText;
+    private final TextView ghScoreIntroText;
+    private final TextView ghPointsText;
+    private final TextView ghPointsOutroText;
 
     public GetHookResultsPane(MainActivity ctx, Hub communicationHub){
         this.ctx = ctx;
@@ -27,11 +30,14 @@ public class GetHookResultsPane implements IMsgHandler{
         this.ghChosenResponseText = (TextView) ctx.getViewById(R.id.chosenResponseText);
         this.ghSuccessRateIntroText = (TextView) ctx.getViewById(R.id.successRateIntroText);
         this.ghSuccessText = (TextView) ctx.getViewById(R.id.successText);
+        this.ghScoreIntroText = (TextView) ctx.getViewById(R.id.scoreIntroText);
+        this.ghPointsText = (TextView) ctx.getViewById(R.id.pointsText);
+        this.ghPointsOutroText = (TextView) ctx.getViewById(R.id.pointsOutroText);
         setupListener();
     }
 
     private void setupListener() {
-        hub.RegisterMsgr(this,CommunicatorEvents.EnterResponseEnter);
+        hub.RegisterMsgr(this, CommunicatorEvents.ResultsEnter);
     }
 
     public void hidePane(){
@@ -45,7 +51,16 @@ public class GetHookResultsPane implements IMsgHandler{
     @Override
     public void HandleMessage(CommunicatorEvents eventType, String message) {
         if(eventType == CommunicatorEvents.ResultsEnter){
+            populateResults(message);
             showPane();
         }
+    }
+
+    private void populateResults(String message) {
+        String[] messageSplit = message.split(":::");
+        ghChosenPlayerText.setText(messageSplit[0]);
+        ghChosenResponseText.setText(messageSplit[1]);
+        ghSuccessText.setText(messageSplit[2]);
+        ghPointsText.setText(messageSplit[3]);
     }
 }

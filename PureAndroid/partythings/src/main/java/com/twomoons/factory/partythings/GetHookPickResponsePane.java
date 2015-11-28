@@ -71,6 +71,7 @@ public class GetHookPickResponsePane extends ListActivity implements IMsgHandler
                 hidePane();
                 String value = (String) ghPickResponseList.getItemAtPosition(i);
                 hub.SendMessage(CommunicatorEvents.PickResponseExit, value);
+
             }
         });
     }

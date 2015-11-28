@@ -9,6 +9,6 @@
         android:layout_marginLeft="12dp"
         android:layout_marginRight="12dp"
         android:text="placeholder"
-            android:onClick="selectItem"
+        android:onClick="selectItem"
         android:id="@+id/list_selection_button" />
 </LinearLayout><!-- From: file:/C:/Users/Joshua/Documents/GitHub/gameofthings/PureAndroid/partythings/src/main/res/layout/item_selection_button_item.xml -->

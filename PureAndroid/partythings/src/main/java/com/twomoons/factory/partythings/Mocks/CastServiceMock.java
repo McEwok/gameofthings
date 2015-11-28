@@ -69,7 +69,7 @@ public class CastServiceMock implements ICommunicator, IMsgHandler {
             } else if (message == "PickPlayer") {
                 _messageHub.SendMessage(CommunicatorEvents.PickPlayerEnter, "Farts:::Josh:::Jeremy:::AJ");
             } else if (message == "Results") {
-                _messageHub.SendMessage(CommunicatorEvents.ResultsEnter,"Josh:::Farts:::Correct");
+                _messageHub.SendMessage(CommunicatorEvents.ResultsEnter,"Josh:::Farts:::Correct:::10");
             }
         } else if(eventType == CommunicatorEvents.EnterResponseExit) {
             System.out.println(message);
