@@ -1,1 +1,4 @@
-PureAndroid/partythings/build
+PureAndroid/partythings/build/**
+PureAndroid/app/build/**
+**.bin
+**.lock
