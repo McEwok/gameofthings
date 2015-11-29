@@ -18,6 +18,7 @@ public class GetHookGameNamePane implements IMsgHandler{
     private final Button ghEnterGameNameButton;
     private final EditText ghPlayerEditText;
     private final View ghEnterGamePane;
+    private Boolean isPlayerNameOnly;
 
     public GetHookGameNamePane(MainActivity ctx, Hub communicationHub){
         this.ctx = ctx;
@@ -36,15 +37,24 @@ public class GetHookGameNamePane implements IMsgHandler{
         this.ghEnterGameNameButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 hidePane();
-                String gameName = ghGameEditText.getText().toString();
                 String playerName = ghPlayerEditText.getText().toString();
-
-                hub.SendMessage(CommunicatorEvents.EnterGameNameExit, gameName + ":::" + playerName);
+            if(isPlayerNameOnly) {
+                hub.SendMessage(CommunicatorEvents.EnterPlayerNameExit, playerName);
+            } else {
+                String gameName = ghGameEditText.getText().toString();
+                hub.SendMessage(CommunicatorEvents.EnterGameExit, gameName + ":::" + playerName);
+            }
             }
         });
     }
 
-    private void setupListener() { hub.RegisterMsgr(this, CommunicatorEvents.EnterGameNameEnter); }
+    private void setupListener() {
+        //This is a comment
+        //This is another comment
+        hub.RegisterMsgr(this, CommunicatorEvents.EnterGameNameEnter);
+        hub.RegisterMsgr(this, CommunicatorEvents.EnterPlayerNameEnter);
+        String str = "str";
+    }
 
     public void hidePane(){ ghEnterGamePane.setVisibility(View.GONE); }
 
@@ -59,9 +69,12 @@ public class GetHookGameNamePane implements IMsgHandler{
         if(eventType == CommunicatorEvents.EnterGameNameEnter) {
             showPane();
             showGameNamePane();
-            if(message == "gameExists") {
-                hideGameNamePane();
-            }
+            isPlayerNameOnly = false;
+        } else if (eventType == CommunicatorEvents.EnterPlayerNameEnter) {
+            showPane();
+            showGameNamePane();
+            hideGameNamePane();
+            isPlayerNameOnly = true;
         }
     }
 }

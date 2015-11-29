@@ -20,7 +20,7 @@ public class MainActivity extends ActionBarActivity implements IView, IMsgHandle
     private Hub communicationHub;
 
     public MainActivity() {
-        mCommunicator = new CastServiceMock();
+        mCommunicator = new CastService();
     }
 
     //Used by Unit Test only

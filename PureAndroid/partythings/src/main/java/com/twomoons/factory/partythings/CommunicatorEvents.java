@@ -7,6 +7,8 @@ public enum CommunicatorEvents {
     EnterGameExit,
     EnterGameNameEnter,
     EnterGameNameExit,
+    EnterPlayerNameEnter,
+    EnterPlayerNameExit,
     NotConnectedEnter,
     NotConnectedExit,
     PickPlayerEnter,

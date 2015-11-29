@@ -5,11 +5,15 @@ import android.support.v7.media.MediaRouter;
 import android.util.Log;
 import android.view.Menu;
 
+import com.google.android.gms.cast.Cast;
 import com.google.android.gms.cast.CastDevice;
 import com.google.sample.castcompanionlibrary.cast.DataCastManager;
 import com.google.sample.castcompanionlibrary.cast.callbacks.DataCastConsumerImpl;
 import com.google.sample.castcompanionlibrary.cast.exceptions.NoConnectionException;
 import com.google.sample.castcompanionlibrary.cast.exceptions.TransientNetworkDisconnectionException;
+
+import org.json.JSONException;
+import org.json.JSONObject;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -21,12 +25,28 @@ import java.util.List;
 public class CastService extends MediaRouter.Callback implements ICommunicator, IMsgHandler {
 
     private DataCastManager mCaster;
-    private String mNamespace = "urn:x-cast:com.pt.basic";
+    private String mNamespace = "urn:x-cast:com.partythings";
+    private String cGameName = ".gamename";
+    private String cPlayerName = ".playername";
+    private String cStandBy = ".standby";
+    private String cReady = ".ready";
+    private String cPrompt = ".prompt";
+    private String cThing = ".thing";
+    private String cGuess = ".guess";
+    private String cQuit = ".quit";
     private IHub _messageHub;
 
     @Override
     public void Initialize(Context ctx, IHub messageHub) {
-        mCaster = DataCastManager.initialize(ctx, "285A9A14", mNamespace);
+        mCaster = DataCastManager.initialize(ctx, "285A9A14",   mNamespace+cGameName,
+                                                                mNamespace+cPlayerName,
+                                                                mNamespace+cStandBy,
+                                                                mNamespace+cReady,
+                                                                mNamespace+cPrompt,
+                                                                mNamespace+cThing,
+                                                                mNamespace+cGuess,
+                                                                mNamespace+cQuit);
+
         //mCaster.enableFeatures(DataCastManager.FEATURE_WIFI_RECONNECT);
         mCaster.addDataCastConsumer(new CastMessageConsumer());
         _messageHub = messageHub;
@@ -60,7 +80,7 @@ public class CastService extends MediaRouter.Callback implements ICommunicator, 
     @Override
     public void onRouteSelected(MediaRouter router, MediaRouter.RouteInfo info) {
         mSelectedDevice = CastDevice.getFromBundle(info.getExtras());
-        String routeId = info.getId();
+//        String routeId = info.getId();
     }
 
     @Override
@@ -86,7 +106,31 @@ public class CastService extends MediaRouter.Callback implements ICommunicator, 
     public void HandleMessage(CommunicatorEvents eventType, String message) {
         if(eventType == CommunicatorEvents.EnterGameNameExit)
         {
+            String[] split = message.split(":::");
+            JSONObject json = new JSONObject();
 
+            try {
+                json.put("gameName", split[0]);
+            } catch (JSONException e) {
+                e.printStackTrace();
+            }
+            try {
+                json.put("playerName", split[1]);
+            } catch (JSONException e) {
+                e.printStackTrace();
+            }
+
+            sendMessage(json.toString(), mNamespace + cGameName);
+        } else if (eventType == CommunicatorEvents.EnterPlayerNameExit)
+        {
+            JSONObject json = new JSONObject();
+            try {
+                json.put("playerName", message);
+            } catch (JSONException e) {
+                e.printStackTrace();
+            }
+
+            sendMessage(json.toString(), mNamespace + cGameName);
         }
     }
 
@@ -104,8 +148,37 @@ public class CastService extends MediaRouter.Callback implements ICommunicator, 
 
     private class CastMessageConsumer extends DataCastConsumerImpl {
         @Override
-        public void onMessageReceived(CastDevice castDevice, String namespace, String message) {
+        public void onMessageReceived(CastDevice castDevice, String namespace, String data) {
 
+            System.out.println("Cast message received: ");
+            System.out.println(namespace + " ::: " + data);
+            JSONObject json;
+            try {
+               json = new JSONObject(data);
+            } catch (JSONException e) {
+                System.out.println("Error parsing json:");
+                System.out.println(data);
+                e.printStackTrace();
+                return;
+            }
+
+            String message = GetMessage(json);
+
+            if(namespace.equals(mNamespace + cPlayerName)){
+                _messageHub.SendMessage(CommunicatorEvents.EnterPlayerNameEnter, message);
+            } else if (namespace.equals(mNamespace + cGameName)){
+                _messageHub.SendMessage(CommunicatorEvents.EnterGameNameEnter, message);
+            }
+        }
+
+        private String GetMessage(JSONObject json){
+            String message = "";
+            try {
+                message = json.getString("message");
+            } catch (JSONException e) {
+                e.printStackTrace();
+            }
+            return message;
         }
     }
 }

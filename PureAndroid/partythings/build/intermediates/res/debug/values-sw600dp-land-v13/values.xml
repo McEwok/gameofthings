@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!-- From: file:/C:/Users/Joshua/Documents/GitHub/gameofthings/PureAndroid/partythings/build/intermediates/exploded-aar/PureAndroid/CastCompanionLibrary-android-master/unspecified/release/res/values-sw600dp-land-v13/values.xml -->
-    <eat-comment/>
-    <dimen name="ccl_castplayer_bgimage_width">500dp</dimen>
-</resources>
