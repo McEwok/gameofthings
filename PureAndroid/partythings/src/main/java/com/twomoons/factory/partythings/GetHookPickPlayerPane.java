@@ -23,6 +23,7 @@ public class GetHookPickPlayerPane implements IMsgHandler{
     private final TextView ghpickPlayerChosenResponseText;
     private final ListView ghPickPlayerList;
     private List<String> _Items;
+    private List<String> responseListIds;
     private MyListAdapter _ListAdapter;
 
     public GetHookPickPlayerPane(MainActivity ctx, Hub communicationHub){
@@ -46,13 +47,27 @@ public class GetHookPickPlayerPane implements IMsgHandler{
     public void showPane() { ghPickPlayerPane.setVisibility(View.VISIBLE); }
 
     private void addElements(String message, List<String> _Items, MyListAdapter _ListAdapter) {
-        List<String> responseList = Arrays.asList(message.split(":::"));
-        ghpickPlayerChosenResponseText.setText(responseList.get(0));
+       List<String> responseListObjects = Arrays.asList(message.split(":::"));
+        responseListIds = new ArrayList<String>();
+        List<String> responseList = new ArrayList<String>();
 
-        for(int i = 1; i < responseList.size(); i++) {
-            _Items.add(responseList.get(i));
-            _ListAdapter.notifyDataSetChanged();
+        for (int i = 1; i < responseListObjects.size(); i++) {
+            String res = responseListObjects.get(i);
+            if(res.contains(";;;")) {
+                String[] split = res.split(";;;");
+                responseListIds.add(split[1]);
+                responseList.add(split[0]);
+            }
         }
+        ghpickPlayerChosenResponseText.setText(responseListObjects.get(0));
+
+        _Items.clear();
+        List<String> tempString = Arrays.asList("");
+        _Items.addAll(tempString);
+        _ListAdapter.notifyDataSetChanged();
+
+         _Items.addAll(responseList);
+         _ListAdapter.notifyDataSetChanged();
     }
 
     private void handleOnClick() {
@@ -60,10 +75,11 @@ public class GetHookPickPlayerPane implements IMsgHandler{
 
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                hub.SendMessage(CommunicatorEvents.PickPlayerExit, responseListIds.get(i-1));
+
                 hidePane();
-                String value = (String) ghPickPlayerList.getItemAtPosition(i);
                 //Toast.makeText(ctx, value, Toast.LENGTH_LONG).show();
-                hub.SendMessage(CommunicatorEvents.PickPlayerExit, value);
+                responseListIds = null;
             }
         });
     }

@@ -21,6 +21,17 @@ public class GetHookReadyPane implements IMsgHandler {
         this.ghReadyPromptText = (TextView) ctx.getViewById(R.id.readyPromptText);
         this.ghReady = (Button) ctx.getViewById(R.id.ready);
         setupListener();
+        setupReadyButton();
+    }
+
+    private void setupReadyButton(){
+        ghReady.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                hidePane();
+                hub.SendMessage(CommunicatorEvents.ReadyExit, "");
+            }
+        });
     }
 
     private void setupListener() {

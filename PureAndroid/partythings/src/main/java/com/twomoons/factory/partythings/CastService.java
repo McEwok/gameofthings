@@ -12,11 +12,13 @@ import com.google.sample.castcompanionlibrary.cast.callbacks.DataCastConsumerImp
 import com.google.sample.castcompanionlibrary.cast.exceptions.NoConnectionException;
 import com.google.sample.castcompanionlibrary.cast.exceptions.TransientNetworkDisconnectionException;
 
+import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -35,6 +37,8 @@ public class CastService extends MediaRouter.Callback implements ICommunicator, 
     private String cGuess = ".guess";
     private String cQuit = ".quit";
     private IHub _messageHub;
+    private String lastPlayers = null;
+    private String selectedResponse = null;
 
     @Override
     public void Initialize(Context ctx, IHub messageHub) {
@@ -57,6 +61,12 @@ public class CastService extends MediaRouter.Callback implements ICommunicator, 
     private ArrayList<CommunicatorEvents> buildEventList(){
         ArrayList<CommunicatorEvents> list =  new ArrayList<CommunicatorEvents>();
         list.add(CommunicatorEvents.EnterGameNameExit);
+        list.add(CommunicatorEvents.EnterPlayerNameExit);
+        list.add(CommunicatorEvents.EnterResponseExit);
+        list.add(CommunicatorEvents.PickPlayerExit);
+        list.add(CommunicatorEvents.PickResponseExit);
+        list.add(CommunicatorEvents.PromptSelectionExit);
+        list.add(CommunicatorEvents.ReadyExit);
         return list;
     }
 
@@ -104,8 +114,7 @@ public class CastService extends MediaRouter.Callback implements ICommunicator, 
 
     @Override
     public void HandleMessage(CommunicatorEvents eventType, String message) {
-        if(eventType == CommunicatorEvents.EnterGameNameExit)
-        {
+        if(eventType == CommunicatorEvents.EnterGameNameExit){
             String[] split = message.split(":::");
             JSONObject json = new JSONObject();
 
@@ -121,8 +130,7 @@ public class CastService extends MediaRouter.Callback implements ICommunicator, 
             }
 
             sendMessage(json.toString(), mNamespace + cGameName);
-        } else if (eventType == CommunicatorEvents.EnterPlayerNameExit)
-        {
+        } else if (eventType == CommunicatorEvents.EnterPlayerNameExit){
             JSONObject json = new JSONObject();
             try {
                 json.put("playerName", message);
@@ -131,11 +139,50 @@ public class CastService extends MediaRouter.Callback implements ICommunicator, 
             }
 
             sendMessage(json.toString(), mNamespace + cGameName);
+        } else if(eventType == CommunicatorEvents.ReadyExit){
+            sendMessage("{}", mNamespace + cReady);
+        } else if(eventType == CommunicatorEvents.PromptSelectionExit){
+            JSONObject json = new JSONObject();
+            try {
+                json.put("prompt", message);
+            } catch (JSONException e) {
+                e.printStackTrace();
+            }
+
+            sendMessage(json.toString(), mNamespace + cPrompt);
+        } else if(eventType == CommunicatorEvents.EnterResponseExit){
+            JSONObject json = new JSONObject();
+            try {
+                json.put("thing", message);
+            } catch (JSONException e) {
+                e.printStackTrace();
+            }
+            sendMessage(json.toString(), mNamespace + cThing);
+        } else if(eventType == CommunicatorEvents.PickResponseExit){
+            List<String> responseListObjects = Arrays.asList(message.split(":::"));
+            selectedResponse = responseListObjects.get(0);
+            _messageHub.SendMessage(CommunicatorEvents.PickPlayerEnter, responseListObjects.get(1) + ":::" + lastPlayers);
+        } else if(eventType == CommunicatorEvents.PickPlayerExit){
+            JSONObject json = new JSONObject();
+            try {
+                json.put("playerId", message);
+            } catch (JSONException e) {
+                e.printStackTrace();
+            }
+            try {
+                json.put("responseId", selectedResponse);
+            } catch (JSONException e) {
+                e.printStackTrace();
+            }
+            sendMessage(json.toString(), mNamespace + cGuess);
+            lastPlayers = null;
+            selectedResponse = null;
         }
     }
 
     private void sendMessage(String message, String namespace){
         try {
+            System.out.println("Sending Message: " + " ::: " + namespace + " ::: " + message);
             mCaster.sendDataMessage(message, namespace);
         } catch (IOException e) {
             e.printStackTrace();
@@ -154,7 +201,7 @@ public class CastService extends MediaRouter.Callback implements ICommunicator, 
             System.out.println(namespace + " ::: " + data);
             JSONObject json;
             try {
-               json = new JSONObject(data);
+                json = new JSONObject(data);
             } catch (JSONException e) {
                 System.out.println("Error parsing json:");
                 System.out.println(data);
@@ -162,17 +209,102 @@ public class CastService extends MediaRouter.Callback implements ICommunicator, 
                 return;
             }
 
-            String message = GetMessage(json);
 
-            if(namespace.equals(mNamespace + cPlayerName)){
+            if (namespace.equals(mNamespace + cPlayerName)) {
+                String message = GetMessage(json);
                 _messageHub.SendMessage(CommunicatorEvents.EnterPlayerNameEnter, message);
-            } else if (namespace.equals(mNamespace + cGameName)){
+            } else if (namespace.equals(mNamespace + cGameName)) {
+                String message = GetMessage(json);
                 _messageHub.SendMessage(CommunicatorEvents.EnterGameNameEnter, message);
+            } else if (namespace.equals(mNamespace + cReady)) {
+                String message = GetMessage(json);
+                _messageHub.SendMessage(CommunicatorEvents.ReadyEnter, message);
+            } else if (namespace.equals(mNamespace + cPrompt)) {
+                String[] prompts = GetPrompts(json);
+                String promptsStr = prompts[0] + ":::" + prompts[1] + ":::" + prompts[2];
+                _messageHub.SendMessage(CommunicatorEvents.PromptSelectionEnter, promptsStr);
+            } else if (namespace.equals(mNamespace + cThing)) {
+                String message = GetMessage(json);
+                _messageHub.SendMessage(CommunicatorEvents.EnterResponseEnter, message);
+            } else if (namespace.equals(mNamespace + cGuess)) {
+                String things = GetNestedObject(json, "things", "response", "responseId");
+                lastPlayers = GetNestedObject(json, "elegiblePlayers", "playerName", "playerId");
+
+                _messageHub.SendMessage(CommunicatorEvents.PickResponseEnter, things);
             }
         }
 
+        private String GetNestedObject(JSONObject json, String outerArrayName, String prop1, String prop2){
+            JSONObject messageObj = GetMessageObj(json);
+
+            JSONArray thingsJSON = null;
+            if(null != messageObj){
+                try{
+                    thingsJSON = messageObj.getJSONArray(outerArrayName);
+                } catch(JSONException e){
+                    e.printStackTrace();
+                }
+            }
+
+            String things = "";
+            if(null != thingsJSON){
+
+                    for (int i = 0; i < thingsJSON.length(); i++) {
+                        if (i > 0) {
+                            things += ":::";
+                        }
+                        try {
+                            JSONObject thing = thingsJSON.getJSONObject(i);
+                            things += thing.getString(prop1) + ";;;" + thing.getString(prop2);
+                        } catch (JSONException e) {
+                            e.printStackTrace();
+                        }
+                    }
+            }
+
+            return things;
+        }
+
+        private String[] GetPrompts(JSONObject json){
+            JSONObject messageObj = GetMessageObj(json);
+
+            JSONArray promptsJSON = null;
+            if(null != messageObj){
+                try{
+                    promptsJSON = messageObj.getJSONArray("prompts");
+                } catch(JSONException e){
+                    e.printStackTrace();
+                }
+            }
+
+            String[] prompts = new String[0];
+            if(null != promptsJSON){
+                prompts = new String[promptsJSON.length()];
+
+                try {
+                    for (int i = 0; i < promptsJSON.length(); i++) {
+                        prompts[i] = promptsJSON.getString(i);
+                    }
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
+            }
+
+            return prompts;
+        }
+
+        private JSONObject GetMessageObj(JSONObject json){
+            JSONObject messageObj = null;
+            try {
+                messageObj = json.getJSONObject("message");
+            } catch (JSONException e) {
+                e.printStackTrace();
+            }
+            return messageObj;
+        }
+
         private String GetMessage(JSONObject json){
-            String message = "";
+            String message = "No Message Found";
             try {
                 message = json.getString("message");
             } catch (JSONException e) {

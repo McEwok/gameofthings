@@ -65,9 +65,9 @@ public class CastServiceMock implements ICommunicator, IMsgHandler {
             if (message == "EnterResponse") {
                 _messageHub.SendMessage(CommunicatorEvents.EnterResponseEnter, "Donuts");
             } else if (message == "PickResponse"){
-                _messageHub.SendMessage(CommunicatorEvents.PickResponseEnter, "Farts:::Burps:::Cows");
+                _messageHub.SendMessage(CommunicatorEvents.PickResponseEnter, "Farts;;;1:::Burps;;;2:::Cows;;;3");
             } else if (message == "PickPlayer") {
-                _messageHub.SendMessage(CommunicatorEvents.PickPlayerEnter, "Farts:::Josh:::Jeremy:::AJ");
+                _messageHub.SendMessage(CommunicatorEvents.PickPlayerEnter, "Farts:::Farts;;;1:::Josh;;;2:::Jeremy;;;3");
             } else if (message == "Results") {
                 _messageHub.SendMessage(CommunicatorEvents.ResultsEnter,"Josh:::Farts:::Correct:::10");
             }

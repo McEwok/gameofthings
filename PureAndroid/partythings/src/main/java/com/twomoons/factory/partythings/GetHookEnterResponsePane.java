@@ -36,7 +36,7 @@ public class GetHookEnterResponsePane implements IMsgHandler{
             public void onClick(View v) {
                 hidePane();
                 String response = ghEnterResponseEdit.getText().toString();
-                hub.SendMessage(CommunicatorEvents.EnterResponseExit,response);
+                hub.SendMessage(CommunicatorEvents.EnterResponseExit, response);
             }
         });
     }

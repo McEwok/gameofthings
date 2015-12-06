@@ -23,6 +23,8 @@ public class GetHookPickResponsePane extends ListActivity implements IMsgHandler
     private final TextView ghPickResponseText;
     private final ListView ghPickResponseList;
     private List<String> _Items;
+    private List<String> responseListIds;
+    private List<String> responseList;
     private MyListAdapter _ListAdapter;
 
     public GetHookPickResponsePane(MainActivity ctx, Hub communicationHub){
@@ -57,7 +59,24 @@ public class GetHookPickResponsePane extends ListActivity implements IMsgHandler
     }
 
     private void addElements(String message, List<String> _Items, MyListAdapter _ListAdapter) {
-        List<String> responseList = Arrays.asList(message.split(":::"));
+        List<String> responseListObjects = Arrays.asList(message.split(":::"));
+        responseListIds = new ArrayList<String>();
+        responseList = new ArrayList<String>();
+
+        for (int i = 0; i < responseListObjects.size(); i++) {
+            String res = responseListObjects.get(i);
+            if(res.contains(";;;")) {
+                String[] split = res.split(";;;");
+                responseListIds.add(split[1]);
+                responseList.add(split[0]);
+            }
+
+        }
+
+        _Items.clear();
+        List<String> tempString = Arrays.asList("");
+        _Items.addAll(tempString);
+        _ListAdapter.notifyDataSetChanged();
 
         _Items.addAll(responseList);
         _ListAdapter.notifyDataSetChanged();
@@ -68,10 +87,10 @@ public class GetHookPickResponsePane extends ListActivity implements IMsgHandler
 
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                hub.SendMessage(CommunicatorEvents.PickResponseExit, responseListIds.get(i-1) + ":::"+responseList.get(i-1));
                 hidePane();
-                String value = (String) ghPickResponseList.getItemAtPosition(i);
-                hub.SendMessage(CommunicatorEvents.PickResponseExit, value);
-
+                responseListIds = null;
+                responseList = null;
             }
         });
     }

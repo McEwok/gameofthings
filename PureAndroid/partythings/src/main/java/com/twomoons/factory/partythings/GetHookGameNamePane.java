@@ -38,12 +38,12 @@ public class GetHookGameNamePane implements IMsgHandler{
             public void onClick(View v) {
                 hidePane();
                 String playerName = ghPlayerEditText.getText().toString();
-            if(isPlayerNameOnly) {
-                hub.SendMessage(CommunicatorEvents.EnterPlayerNameExit, playerName);
-            } else {
-                String gameName = ghGameEditText.getText().toString();
-                hub.SendMessage(CommunicatorEvents.EnterGameExit, gameName + ":::" + playerName);
-            }
+                if(isPlayerNameOnly) {
+                    hub.SendMessage(CommunicatorEvents.EnterPlayerNameExit, playerName);
+                } else {
+                    String gameName = ghGameEditText.getText().toString();
+                    hub.SendMessage(CommunicatorEvents.EnterGameNameExit, gameName + ":::" + playerName);
+                }
             }
         });
     }

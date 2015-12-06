@@ -34,7 +34,11 @@ public class GetHookNotConnectedPane implements IMsgHandler{
         });
     }
 
-    private void setupListener() { hub.RegisterMsgr(this,CommunicatorEvents.NotConnectedEnter); }
+    private void setupListener() {
+        hub.RegisterMsgr(this,CommunicatorEvents.NotConnectedEnter);
+        hub.RegisterMsgr(this, CommunicatorEvents.EnterPlayerNameEnter);
+        hub.RegisterMsgr(this, CommunicatorEvents.EnterGameNameEnter);
+    }
 
     public void hidePane(){
         ghNotConnectedPane.setVisibility(View.GONE);
@@ -49,6 +53,8 @@ public class GetHookNotConnectedPane implements IMsgHandler{
     public void HandleMessage(CommunicatorEvents eventType, String message) {
         if(eventType == CommunicatorEvents.NotConnectedEnter){
             showPane();
+        } else if(eventType == CommunicatorEvents.EnterPlayerNameEnter || eventType == CommunicatorEvents.EnterGameNameEnter){
+            hidePane();
         }
     }
 
