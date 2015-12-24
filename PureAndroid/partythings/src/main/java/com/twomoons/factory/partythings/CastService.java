@@ -20,6 +20,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import android.provider.Settings.Secure;
 
 /**
  * Created by JnA-PC on 4/30/2015.
@@ -36,9 +37,11 @@ public class CastService extends MediaRouter.Callback implements ICommunicator, 
     private String cThing = ".thing";
     private String cGuess = ".guess";
     private String cQuit = ".quit";
+    private String cConnected = ".connected";
     private IHub _messageHub;
     private String lastPlayers = null;
     private String selectedResponse = null;
+    private String deviceId = null;
 
     @Override
     public void Initialize(Context ctx, IHub messageHub) {
@@ -49,13 +52,16 @@ public class CastService extends MediaRouter.Callback implements ICommunicator, 
                                                                 mNamespace+cPrompt,
                                                                 mNamespace+cThing,
                                                                 mNamespace+cGuess,
-                                                                mNamespace+cQuit);
+                                                                mNamespace+cQuit,
+                                                                mNamespace+cConnected);
 
         //mCaster.enableFeatures(DataCastManager.FEATURE_WIFI_RECONNECT);
         mCaster.addDataCastConsumer(new CastMessageConsumer());
         _messageHub = messageHub;
 
         _messageHub.RegisterMsgr(this, buildEventList());
+
+        deviceId = Secure.getString(ctx.getContentResolver(), Secure.ANDROID_ID);
     }
 
     private ArrayList<CommunicatorEvents> buildEventList(){
@@ -67,6 +73,7 @@ public class CastService extends MediaRouter.Callback implements ICommunicator, 
         list.add(CommunicatorEvents.PickResponseExit);
         list.add(CommunicatorEvents.PromptSelectionExit);
         list.add(CommunicatorEvents.ReadyExit);
+        list.add(CommunicatorEvents.Handshake);
         return list;
     }
 
@@ -78,6 +85,11 @@ public class CastService extends MediaRouter.Callback implements ICommunicator, 
     @Override
     public void OnResume() {
         mCaster.incrementUiCounter();
+        if(mSelectedDevice != null){
+            _messageHub.SendMessage(CommunicatorEvents.NotConnectedExit, "");
+            _messageHub.SendMessage(CommunicatorEvents.WaitingEnter, "");
+            _messageHub.SendMessage(CommunicatorEvents.Handshake, "");
+        }
     }
 
     @Override
@@ -177,6 +189,16 @@ public class CastService extends MediaRouter.Callback implements ICommunicator, 
             sendMessage(json.toString(), mNamespace + cGuess);
             lastPlayers = null;
             selectedResponse = null;
+        } else if(eventType == CommunicatorEvents.Handshake) {
+            JSONObject json = new JSONObject();
+
+            try{
+                json.put("playerId", deviceId);
+            }  catch (JSONException e) {
+                e.printStackTrace();
+            }
+
+            sendMessage(json.toString(), mNamespace + cConnected);
         }
     }
 
@@ -209,7 +231,6 @@ public class CastService extends MediaRouter.Callback implements ICommunicator, 
                 return;
             }
 
-
             if (namespace.equals(mNamespace + cPlayerName)) {
                 String message = GetMessage(json);
                 _messageHub.SendMessage(CommunicatorEvents.EnterPlayerNameEnter, message);
@@ -231,7 +252,11 @@ public class CastService extends MediaRouter.Callback implements ICommunicator, 
                 lastPlayers = GetNestedObject(json, "elegiblePlayers", "playerName", "playerId");
 
                 _messageHub.SendMessage(CommunicatorEvents.PickResponseEnter, things);
+            } else if (namespace.equals(mNamespace + cConnected)) {
+                String message = GetMessage(json);
+                _messageHub.SendMessage(CommunicatorEvents.Handshake, "");
             }
+
         }
 
         private String GetNestedObject(JSONObject json, String outerArrayName, String prop1, String prop2){

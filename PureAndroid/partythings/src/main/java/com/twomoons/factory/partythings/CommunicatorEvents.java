@@ -22,5 +22,5 @@ public enum CommunicatorEvents {
     ResultsEnter,
     PromptSelectionEnter,
     PromptSelectionExit,
-    ResultsExit
+    Handshake, ResultsExit
 }

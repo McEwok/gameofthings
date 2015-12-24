@@ -101,6 +101,7 @@ public class MainActivity extends ActionBarActivity implements IView, IMsgHandle
     public void onResume(){
 
         super.onResume();
+        mCommunicator.OnResume();
     }
 
     @Override
